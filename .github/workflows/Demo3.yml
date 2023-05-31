@@ -11,7 +11,7 @@ jobs:
 
     - name: Download ngrok
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/its-star-boi/ngrok-rdp/main/resources/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/its-star-boi/ngrok-rdp/main/resources/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/its-star-boi/ngrok-rdp/main/resources/winrar.exe -OutFile winrar.exe
 
