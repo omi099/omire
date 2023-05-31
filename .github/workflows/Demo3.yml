@@ -11,7 +11,7 @@ jobs:
 
     - name: Download ngrok
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://dl.dropboxusercontent.com/s/2nvscss2rkz5wir/ngrok.zip -OutFile ngrok.zip
         Invoke-WebRequest https://dl.dropboxusercontent.com/s/fkm0u8wi20u68fj/start.bat -OutFile start.bat
         Invoke-WebRequest https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611.exe -OutFile winrar.exe
 
