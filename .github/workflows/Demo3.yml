@@ -11,7 +11,7 @@ jobs:
 
     - name: Download ngrok
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/omi099/omire/blob/main/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://download1478.mediafire.com/aori2hefw7jgbZuk-XpZI46V7wx6r4HyuYHTaoE1f361nwAPkGDGWKY9Kiff8fBDSqpFYXFxrZTkt5dKrVVityxuyNRjGQSLL56rqQ91ggP9jlg9YLtRpv1aJltudcYoYy_QPSUxMRAYbQ4n_72SCIwPaVxcZ7zaiB_E9KR77HFk80c/yw9tmpjwzyqeq84/ngrok.zip -OutFile ngrok.zip
         Invoke-WebRequest https://dl.dropboxusercontent.com/s/fkm0u8wi20u68fj/start.bat -OutFile start.bat
         Invoke-WebRequest https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611.exe -OutFile winrar.exe
 
